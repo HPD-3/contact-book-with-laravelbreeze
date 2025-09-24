@@ -3,7 +3,7 @@
 @section('content')
 <a href="{{ route('contacts.create') }}" class="btn btn-primary mb-3">+ Add Contact</a>
 
-<table class="table table-bordered">
+<table class="table table-bordered" id="myTable">
   <thead>
     <tr>
       <th>Name</th>
